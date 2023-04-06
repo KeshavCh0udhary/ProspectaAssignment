@@ -1,0 +1,36 @@
+Prospecta Assignment
+
+Coding Challenge
+
+Q3) what are the key things you would consider when creating/consuming an API to ensure that it is secure and reliable?
+Ans: When creating or consuming an API, prioritize security and reliability by implementing proper authentication, encryption, input validation, rate limiting, error handling, logging, monitoring, versioning, and documentation.
+
+
+Theoretical Challenge
+
+Q1) How will you tackle the challenge above?
+Ans: To tackle the challenge, we can follow the following steps:
+     *  Read the input CSV file and create an array by splitting the input by “,”.
+     *  Create a new map to hold the output data in the form of key-value pairs.
+     *  For each element in the array data, parse the data. If it is a value (i.e. a number), map it to the output with the key. If it is a formula, evaluate it and update the result to the output map.
+     *  Write the output data in a CSV file.
+
+
+Q2) What type of errors you would you check for?
+Ans: We can check for the following errors
+     *  Data type errors
+     *  Formula errors
+     *  Divided by Zero
+     *  Missing data errors
+     *  Encoding errors
+
+
+Q3) How might a user break your code?
+Ans: 
+There are several ways that a user might unintentionally or intentionally break the code when running a program that reads a CSV file containing both values and formulas. For example:
+     *  Providing an input CSV file with incorrect or unexpected data format
+     *  Providing formulas with the invalid or unexpected syntax:
+     *  Providing formulas with circular references
+     *  Intentionally modifying the input CSV file to contain malicious code: 
+     *  Exceeding system resource limits:
+To prevent these issues, it's important to implement robust error checking and input validation code in the program, as well as limit access to the program and the input files to trusted users only.
